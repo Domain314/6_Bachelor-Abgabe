@@ -1,0 +1,11 @@
+.DS_Store
+
+.vscode/
+
+node_modules/
+
+# Ignore all JSON files
+*.json
+
+# Except package.json
+!package.json
