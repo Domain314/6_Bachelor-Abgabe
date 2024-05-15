@@ -1,0 +1,101 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ANFANG VON FH VORLAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter{FH-Vorlagen Archiv}
+
+%\begin{figure}[!htbp]
+%\centering
+%\includegraphics[width=0.5\linewidth]{PICs/buchruecken}
+%\caption{Beispiel für die Beschriftung eines Buchrückens.}\label{Abb1}
+%\end{figure}
+
+%\begin{figure}[!htbp]
+%\centering
+%\includegraphics[width=0.5\linewidth]{PICs/buchruecken}
+%\caption{2. Beispiel für die Beschriftung eines Buchrückens.}\label{Abb2}
+%\end{figure}
+
+%\noindent Querverweise werden in \LaTeX{} automatisch erzeugt und verwaltet, damit sie leicht aktualisiert werden können. Hier wird zum Beispiel auf Abbildung %\ref{Abb1} verwiesen.
+%Und hier ist ein Verweis auf Tabelle \ref{tab1}. Das gezeigte Tabellenformat ist nur ein Beispiel. Tabellen können individuell gestaltet werden.
+
+%Etwas Text... Hier kommen noch einige Abkürzunge vor zum Beispiel \ac{ABC},\ac{WWW} und \ac{ROFL}.
+
+%\begin{table}[!htbp]
+%\centering
+%\caption{Semesterplan der Lehrveranstaltung \glqq Angewandte Mathematik\grqq.}\label{tab1}
+%\begin{tabular}{| p{0.3\linewidth} | p{0.3\linewidth} | p{0.3\linewidth} |}\hline
+%Datum & Thema & Raum\\\hline
+%20.08.2008 & Graphentheorie & HS 3.13\\
+%01.10.2008 & Biomathematik & HS 1.05\\\hline
+%\end{tabular}
+%\end{table}
+%\begin{table}[!htbp]
+%\centering
+%\caption{2. Semesterplan der Lehrveranstaltung \glqq Angewandte Mathematik\grqq.}\label{tab2}
+%\begin{tabular}{| p{0.3\linewidth} | p{0.3\linewidth} | p{0.3\linewidth} |}\hline
+%Datum & Thema & Raum\\\hline
+%20.08.2008 & Graphentheorie & HS 3.13\\
+%01.10.2008 & Biomathematik & HS 1.05\\\hline
+%\end{tabular}
+%\end{table}
+
+%Hier wird auf die Formel \ref{Gl1} verwiesen.
+
+%\begin{align}
+%x = -\frac{p}{2}\pm\sqrt{\frac{p^2}{4}-q}\label{Gl1}
+%\end{align}
+%\begin{align}
+%x = -\frac{p}{2}\pm\sqrt{\frac{p^2}{4}-q}\label{Gl2}
+%\end{align}
+
+%Literaturverweise sollten automatisch verwaltet werden, vor allem, wenn es viele Quellenverweise gibt. Beispiele sind  \cite{Ko05a}, \cite{Ko05b}, \cite{MiGo05}, \cite{TeGo14}, \cite{HuHa07}, \cite{HuZi10}, \cite{ZiKu07}, \cite{He07}, \cite{SIE11}, \cite{SIE14}, \cite{ISO98}, \cite{ATM11}, \cite{Hu11}, \cite{Po10}. Das verwendete Zitierformat (bzw.~das Format des Literaturverzeichnisses) ist entspechend der Vorgaben der Studiengänge zu wählen.
+%Hier wird etwas Quellcode dargestellt:
+%\begin{listing}[htbp]
+%\begin{minted}[
+%    frame=single,
+%    framesep=2mm,
+%    baselinestretch=1.2,
+%    bgcolor=white,
+%    fontsize=\footnotesize,
+%%    linenos
+%    ]{c}
+%#include <iostream>
+%
+%void SayHello(void)
+%{
+%    // Kommentar
+%    cout << "Hello World!" << endl;
+%}
+%
+%int main(int argc, char **argv)
+%{
+%    SayHello();
+%%%    return 0;
+%%}
+%\end{minted}
+%\caption{Hello-World}
+%\end{listing}
+%
+%
+%\section{Algorithms}
+%
+%
+%Use a defined environment for algorithms.
+%
+%Algorithm \ref{alg:euclid} is an example from the gallery (\url{https://www.overleaf.com/latex/examples/euclids-algorithm-an-example-of-how-to-write-algorithms-in-latex/mbysznrmktqf}) .
+%\begin{algorithm}
+%\caption{Euclid’s algorithm}\label{alg:euclid}
+%\begin{algorithmic}[1]
+%\Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
+%\State $r\gets a\bmod b$
+%\While{$r\not=0$}\Comment{We have the answer if r is 0}
+%\State $a\gets b$
+%\State $b\gets r$
+%\State $r\gets a\bmod b$
+%\EndWhile\label{euclidendwhile}
+%\State \textbf{return} $b$\Comment{The gcd is b}
+%\EndProcedure
+%\end{algorithmic}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%ENDE VON FH VORLAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
